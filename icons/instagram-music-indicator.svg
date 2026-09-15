@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="color:#fff" role="img" aria-label="Music playing">
+  <style>@media (prefers-reduced-motion: reduce) { .playing { display:none; } } @media (prefers-reduced-motion: no-preference) { .still { display:none; } }</style>
+  <g class="playing">
+    <rect x="2" y="3" width="4" height="18" rx="2">
+      <animate attributeName="y" values="3;7;5;8;3" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+      <animate attributeName="height" values="18;10;14;8;18" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+    </rect>
+    <rect x="10" y="7" width="4" height="10" rx="2">
+      <animate attributeName="y" values="7;3;5;2;7" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+      <animate attributeName="height" values="10;18;14;20;10" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+    </rect>
+    <rect x="18" y="3" width="4" height="18" rx="2">
+      <animate attributeName="y" values="3;7;5;8;3" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+      <animate attributeName="height" values="18;10;14;8;18" dur="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.5;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/>
+    </rect>
+  </g>
+  <g class="still"><rect x="2" y="7" width="4" height="10" rx="2"/><rect x="10" y="3" width="4" height="18" rx="2"/><rect x="18" y="7" width="4" height="10" rx="2"/></g>
+</svg>
